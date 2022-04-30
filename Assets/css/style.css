@@ -1,0 +1,463 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/*Inicio Menu*/
+
+ .inicioQueresEmprender, .inicioCatalogo{
+  width: 100%;
+  max-width: 1000px;
+  padding: 1.25rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+}   
+
+.inicio {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ul{
+   list-style-type: none;
+  }
+
+a{
+   color: rgb(49, 29, 82);
+   text-decoration: none;
+}
+/*Finaliza menu*/
+ 
+
+.SobreNosotros{ /*Comienza Footer: texto e iconos*/
+  max-width: 25rem;
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: 70em;
+  display:inline block;
+  position:static;
+  color: black;
+  margin: 0.625rem 0 0.313rem 0;
+  font-weight: 43.75em;
+  line-height: 1.875em;
+}
+
+.letraParrafo {
+  font-size: 0.7em;
+  color: rgb(23, 22, 22);
+  margin-top: 1.25rem;
+  text-align: center;
+}
+
+.Contactanos, .RedesSociales{
+  margin: 0.625rem 0 0.313rem 0;
+  max-width: 25rem;
+  font-size: 1rem;
+  display: block;
+}
+
+.Email, .Cel, .WhatsApp{
+   margin-top: 1rem; 
+   display: flex;
+   font-size: 0.7em;
+}
+
+.Email img, .Cel img, .WhatsApp img{
+  width: 2.25em;
+  height: 2.25em;
+  margin-bottom: 10px;
+}
+
+.Facebook, .Instagram {
+  width: 2.25em;
+  height: 2.25em;
+  margin-top: 1rem;
+}
+
+.Fb, .Insta{
+  width: 100%;
+  height: 100%;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.7em;
+}
+ 
+/*Imagen Logo Izquierda*/
+.imagenLogo__QueresEmprender, .imagenLogo__Productos{
+  display: flex;
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.imagenLogo{ /*Logo Pagina Principal*/
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding-left:8rem;
+}
+
+.imagenesProductos {
+  margin-top: 200px;
+  width: 100px;
+  height: 100px;
+}
+
+.formCompletar{ /*Comienza Formulario*/
+  display:flex;
+  width: 400px;
+  background-color:  rgba(59, 59, 59, 0);
+  color: rgb(4, 4, 4);
+  margin: auto;
+  margin-top: 50px;
+  flex-direction: column;
+  text-align: start;
+
+}
+
+.controls {/*Finaliza Formulario*/
+  width: 100%;
+  background:#d1ccccf5 ;
+  padding: 9px;
+  margin-bottom: 16px;
+  border: 1px solid;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ContenedorEmprender{ /*Fondo Queres Emprender*/
+ background-image: url(../imagen/zane-lee-iru3lemAGKU-unsplash.jpg);
+ background-size: cover;
+ background-repeat:no-repeat;
+ height: 100%;
+ background-attachment:local;
+ background-position: center;
+
+}
+
+.ContenedorCatalogo{ /*Fondo Catalogo*/
+  background-image: url(../imagen/evie-s-_8vovuZCj0c-unsplash.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: 100%;
+  background-attachment:local;
+  background-position: center;
+
+}
+
+.ContenedorProductos{ /*Fondo productos*/
+  background-image: url(../imagen/darren-nunis-cxE7SXKnzv0-unsplash.jpg);
+  background-size:cover;
+  justify-content: center;
+  position:sticky;
+  background-repeat:no-repeat;
+  height: 200vh;
+  background-attachment:local;
+  background-position: center;
+  margin-top: 100px;
+  align-items: center;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footerQueresEmprender, .footerProductos, .footerMiCuenta, .footerCatalogo{ /*Footer*/
+  font-size: large;
+  margin-top: 900px;
+}
+
+.menu{
+  align-items:flex-start;
+  margin-top: -100px;
+  margin-bottom: 100px;
+}
+
+
+.CatalogoDiapositiva iframe{ /*Diapositiva*/
+  height: 800px;
+  width: 800px;
+  justify-content: space-between;
+  position: relative;
+ margin: auto;
+}
+
+.ParrafoNosotros{ /*Fin Diapo*/
+  font-size: 22px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 22px;
+  font-family:'Bebas Neue', cursive;
+}
+
+/*Tarjetas-Productos*/
+.contenedor{
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-wrap:wrap;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: initial;
+  justify-content: space-evenly;
+
+}
+.tarjeta{
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
+  cursor: default;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 5px;
+  background: #EEEEEE;
+  box-shadow: 0px 2px 2px  rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+  /*GRIDS*/
+
+  .contenedorIndex{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 500px 100px;
+    grid-template-areas: "nav    nav "
+                         "footer footer"
+  }
+  
+  .inicio{
+    grid-area: nav;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .inicio, .menu{
+    grid-area: nav;
+    width: 100%; 
+    padding-right: 5px;
+    display: flex; 
+    align-items:  center; 
+    flex-direction: column;
+   }
+
+   .inicio, .ul, .li, .a{
+     grid-area: nav;
+     display: inline-block;
+     margin-right: 5px; 
+   }
+  
+  .footer{
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer, .SobreNosotros{
+    margin-top: 15px;
+  }
+  .footer, .letraParrafo{
+    text-align: center;
+    display: flex;
+    margin-right: 15px;
+    flex-direction: column;
+  }
+  .imagenLogo, .img{
+    width: 15rem;
+    height: 11rem;
+    display:flex;
+    padding-bottom: 35px;
+    padding-left: 55px;
+    justify-content: center;
+  }
+  .ContenedorNosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 400px 500px 200px;
+    grid-template-areas: "nav    nav "
+                         "main   main"
+                         "footer footer"
+  }
+  .inicio{
+    grid-area: nav;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .inicio, .menu{
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .ContenedorNosotros{
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .ContenidoNosotros__2, .h2{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 22px;
+    font-family:'Bebas Neue', cursive;
+}
+
+.ParrafoNosotros{
+  font-size: 12px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+  .inicio, .menu{
+    grid-area: nav;
+    width: 100%; 
+    padding-right: 5px;
+    display: flex; 
+    align-items:  center; 
+    flex-direction: column;
+   }
+
+   .inicio, .ul, .li, .a{
+     grid-area: nav;
+     display: inline-block;
+     margin-right: 5px;
+     
+   }
+
+  
+  
+  .imagenLogoNosotros, .img{
+    width: 15rem;
+    height: 11rem;
+    display:flex;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    justify-content: center;
+    margin-bottom: 11px;
+  }
+  
+  @media (min-width:1200px){
+    .ContenedorNosotros{
+      background-image: url(../imagen/yenli-tand-WFTW5yFkxTM-unsplash.jpg);
+      margin-bottom: 700px;
+      position:sticky;
+      justify-content: center;
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-attachment:local;
+      background-position: center;
+    }
+
+    .inicio, .menu{
+      flex-direction: row;
+      max-width: 1000px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      font-size: 20px;
+      margin-bottom: 110px;
+    
+    }
+
+    .footer{
+      background-color:#EEEEEE;
+      font-family: sans-serif;
+      color: black;
+      width: 100%;
+      display: flex;
+      justify-content:space-between;
+      max-width: 1400px;
+      margin: auto;
+      padding: 30px;
+      padding-top: 40px;
+      top: 145ex;
+      position: absolute;
+      flex-direction: row;
+    
+    }
+  }
+
+  .ContenidoNosotros__h2{ /*Titulo de Productos-Catálogo-Nosotros*/
+      font-size: 42px;
+      text-align: center;
+   
+      font-family:'Bebas Neue', cursive;
+    }
+    
+    .ParrafoNosotros{
+      font-size: 20px;
+    }
+    
+  
+  @media (min-width:1200px){
+    .contenedorIndex{
+      grid-template-rows: 800px 100px;
+   
+    }
+    .contenedorIndex{
+      background-image: url(../imagen/ohtilly-rXo51TSGKkg-unsplash.jpg);
+      overflow-x: hidden;
+      background-repeat:repeat;
+      background-position: center;
+      background-attachment: local;
+      background-size: 100%;
+      margin-bottom: 12.5rem;
+
+    }
+
+    .imagenLogo, .img{
+      text-align: center;
+      justify-content: center;
+      margin-bottom: 40px;
+      padding-left:16rem;
+      width: auto;
+      width: 55rem;
+      height: 32rem
+    }
+
+    .inicio, .menu{
+      flex-direction: row;
+      max-width: 1000px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      font-size: 20px;
+      margin-bottom: 110px;
+    
+    }
+
+    .footer{
+      background-color:#EEEEEE;
+      font-family: sans-serif;
+      color: black;
+      width: 100%;
+      display: flex;
+      justify-content:space-between;
+      max-width: 1400px;
+      margin: auto;
+      padding: 30px;
+      padding-top: 40px;
+      top: 145ex;
+      position: absolute;
+      flex-direction: row;
+    
+    }
+  }
+
+/*GIT*/
