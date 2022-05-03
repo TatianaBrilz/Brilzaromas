@@ -15,29 +15,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../Assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+   
 </head>
-<body class="ContenedorEmprender">
+<body class="ContenedorEmprender ">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-3 border-boottom">
+    <div class="container-fluid">
+        <a href="" class="navbar-brand"></a>
+        <img src="/Assets/imagen/LogoAlmas001izquierda.jpg" class="navbar-brand">
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <header> <!--Comienza header-->
-       
-    </header> <!--Finaliza header-->    
-
-     <nav class="inicio">
-        <div class="imagenLogo"> <!--Logo con redirección a index-->
-            <a href="/index.html">
-              <img class="imagenLogo__Catalogo" src="../Assets/imagen/LogoAlmas001izquierda.jpg">
-            </a>
-        </div> <!--Finaliza Logo con redirección a index-->
-
-          <ul class="menu">
-              <li><a href="../index.html">Inicio </a></li>
-              <li><a href="../pages/productos.html">Productos </a></li>
-              <li><a href="../pages/catalogo.html">Catálogo </a></li>
-              <li><a href="../pages/nosotros.html">Nosotros </a></li>
-              <li><a href="queresemprender.html">¿Querés empreder?</a></li>
-          </ul>
-      </nav>
-
+        <div id="MenuNavegacion" class="collapse navbar-collapse d-flex justify-content-around">
+          <ul class="navbar-nav ms-3">
+            <li class="nav-item"><a class="nav-link" href="/index.html">Inicio </a></li>
+            <li class="nav-item"><a class="nav-link" href=" ../pages/productos.html">Productos </a></li>
+            <li class="nav-item"><a class="nav-link" href=" ../pages/catalogo.html">Catálogo </a></li>
+            <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros </a></li>
+            <li class="nav-item"><a class="nav-link" href=" ../pages/queresemprender.html">¿Querés empreder?</a></li>
+          </ul>  
+        </div>
+    </div>
+</nav>
+</div>
+</head>
     
   <main class="Informacion"> <!--Comienza main-->
       <h4>¿QUERÉS EMPRENDER?</h4>
@@ -66,44 +69,54 @@
   </section>
   </form> <!--Finaliza form-->
 
-    <footer class="footer">  <!--Comienza footer-->
-   
-        <div>
-          <h2 class="SobreNosotros">SOBRE NOSOTROS</h2>
-          <p class="letraParrafo">Almas Gemelas es una empresa joven que nació <br> con una idea renovadora en el concepto de perfumes textiles.<br> Hoy nos dedicamos a desarrollar diversas líneas de <br> productos, pensados para aromatizar y reconfortar silenciosamente <br>nuestros espacios de vida. </p>   
-        </div>
+<footer class="  g-8 m-4 bg-light text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn  btn-floating m-1"
+        href="https://www.facebook.com/AlmasGemelasFP"
+        role="button">
+        <i class="fab fa-facebook-f"></i> 
+        <img src="../Assets/imagen/facebookicono.jpg">
+      </a>
 
-        <div>
-          <h3 class="Contactanos"> Contactanos</h3>
-    
-        <div class="WhatsApp">
-          <img src="../Assets/imagen/whatsappicono.jpg">
-          <label>+54 9 2954 22-5511</label>
-        </div>
+      <!-- Instagram -->
+      <a class="btn btn-floating m-1"
+        href="https://instagram.com/almasgemelas.a?igshid=NjY2NjE5MzQ="
+        role="button">
+        <i class="fab fa-instagram"></i>
+        <img src="/Assets/imagen/instagramicono.jpg">
+      </a>
+  
+      <!-- Email -->
+      <a class="btn btn-floating m-1"
+        href="almasgemelasaromas@gmail.com"
+        role="button">
+        <i class="fab fa-linkedin-in"></i>
+          <img src="/Assets/imagen/emailicono.jpg">
+      </a>
 
-        <div class="Cel">
-          <img src="../Assets/imagen/telefonoicono.jpg">
-          <label> 2954-225511</label>
-        </div>
+      <!-- Whatsapp -->
+      <a class="btn  btn-floating m-1"
+        href="https://web.whatsapp.com/+54 9 2954 22-5511"
+        role="button">
+        <i class="fab fa-github"></i>
+        <img src="/Assets/imagen/whatsappicono.jpg"><rect width="100%" height="100%" fill="#777"></rect>
+      </a>
 
-        <div class="Email">
-          <img src="../Assets/imagen/emailicono.jpg">
-          <label>almasgemelasaromas@gmail.com</label> 
-        </div>
-        </div>
+  </section>
+    <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022
+    </div>
+    <!-- Copyright -->
+</footer>
 
-        <div>
-          <h4 class="RedesSociales"> Redes Sociales</h4>
-          <img class="Facebook" src="../Assets/imagen/facebookicono.jpg">
-          <label class="Fb">Seguinos en Facebook</label>
-
-        <div>
-          <img class="Instagram" src="../Assets/imagen/instagramicono.jpg">
-          <label class="Insta">Seguinos en Instagram</label>
-        </div>
-        </div>
-
-    </footer> <!--Finaliza footer-->
- 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
 </body>
 </html>
